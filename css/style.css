@@ -42,6 +42,10 @@ ul {
     padding: 50px 0;
 }
 
+.showcase {
+    background-size: cover;
+}
+
 /* Bootstrap Customize */
 
 .btn-primary {
@@ -49,9 +53,26 @@ ul {
     border-color: var(--orange);
 }
 
+.btn-blue-deep {
+    background: var(--blue-deep);
+    border-color: var(--blue-deep);
+    color: #fff;
+}
+
+.btn {
+    border-radius: 0;
+}
+
 .btn.big {
     font-size: 1.5rem;
-    border-radius: 0;
+}
+
+.btn.small {
+    font-size: 1rem;
+}
+
+a.btn-blue-deep:hover {
+    color: #fff;
 }
 
 /* Hero Area */
@@ -87,6 +108,22 @@ ul {
     min-height: 200px;
 }
 
+/* Goal Achieve */
+
+.goal-list li span {
+    height: 100px;
+    width: 100px;
+    background: #000;
+    display: inline-block;
+}
+
+/* Icon Section */
+
+.icon-section {
+    background: #13416f;
+    color: #fff;
+}
+
 /* ========================================================= */
 
 /* ===================== Responsive ======================== */
@@ -95,6 +132,10 @@ ul {
     .h5,
     h5 {
         font-size: 1rem;
+    }
+    .h3,
+    h3 {
+        font-size: 1.2rem;
     }
     .section-title h1 {
         font-size: 23px;
