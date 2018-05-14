@@ -1,0 +1,111 @@
+/* Bootstrap */
+
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css';
+/* Root */
+
+:root {
+    --blue: #3ca2db;
+    --blue-deep: #1c3d67;
+    --orange: #f07f25;
+}
+
+/* Common Style */
+
+body {
+    font-size: 17px;
+}
+
+a:focus,
+button:focus {
+    outline: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-title h4 {
+    color: var(--blue);
+}
+
+.color-blue {
+    color: var(--blue);
+}
+
+.color-orange {
+    color: var(--orange);
+}
+
+.padding {
+    padding: 50px 0;
+}
+
+/* Bootstrap Customize */
+
+.btn-primary {
+    background: var(--orange);
+    border-color: var(--orange);
+}
+
+.btn.big {
+    font-size: 1.5rem;
+    border-radius: 0;
+}
+
+/* Hero Area */
+
+.hero-area figure img {
+    width: 100%;
+}
+
+/* Landing Page  */
+
+/* Frequently Ask */
+
+.frequently-ask {
+    background: var(--blue-deep);
+    color: #fff;
+}
+
+/* Contact Area */
+
+.contact-area {}
+
+.contact-area form {
+    background: var(--blue-deep);
+    padding: 60px 30px;
+}
+
+.contact-area form .form-control {
+    border: 0;
+    border-radius: 0;
+}
+
+.contact-area form .form-control.form-message {
+    min-height: 200px;
+}
+
+/* ========================================================= */
+
+/* ===================== Responsive ======================== */
+
+@media (max-width: 576px) {
+    .h5,
+    h5 {
+        font-size: 1rem;
+    }
+    .section-title h1 {
+        font-size: 23px;
+    }
+    .section-title h4 {
+        font-size: 17px;
+    }
+    header.page-header img {
+        width: 100%;
+    }
+    .btn.big {
+        font-size: 1.2rem;
+    }
+}
