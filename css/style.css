@@ -49,7 +49,7 @@ ul {
 }
 
 .showcase {
-    background-size: cover;
+    background-size: cover !important;
 }
 
 .google-map iframe {
@@ -184,6 +184,29 @@ a.btn-blue-deep:hover {
 /* ========================================================= */
 
 /* ===================== Responsive ======================== */
+
+@media (max-width: 767px) {
+    .h5,
+    h5 {
+        font-size: 1.1rem;
+    }
+    .h3,
+    h3 {
+        font-size: 1.3rem;
+    }
+    .section-title h1 {
+        font-size: 27px;
+    }
+    .section-title h4 {
+        font-size: 20px;
+    }
+    header.page-header img {
+        width: 100%;
+    }
+    .btn.big {
+        font-size: 1.3rem;
+    }
+}
 
 @media (max-width: 576px) {
     .h5,
