@@ -20,6 +20,11 @@ button:focus {
     outline: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -122,6 +127,31 @@ a.btn-blue-deep:hover {
 .icon-section {
     background: #13416f;
     color: #fff;
+}
+
+/* ============= Blog Area ============= */
+
+/* Sidebar */
+
+.blog-sidebar .sidebar-list {
+    margin-bottom: 30px;
+}
+
+.blog-sidebar .sidebar-list .list-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.blog-sidebar .sidebar-list li {
+    color: var(--blue);
+}
+
+.blog-sidebar .recent-post li a,
+.blog-sidebar .top-post li a {
+    color: var(--blue);
+    margin-bottom: 10px;
+    display: inline-block;
 }
 
 /* ========================================================= */
