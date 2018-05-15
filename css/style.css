@@ -1,6 +1,7 @@
 /* Bootstrap */
 
 @import 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 /* Root */
 
 :root {
@@ -51,6 +52,21 @@ ul {
     background-size: cover;
 }
 
+.google-map iframe {
+    width: 100%;
+    min-height: 358px;
+}
+
+.icon-list li a {
+    padding: 10px;
+    font-size: 22px;
+    color: var(--blue-deep);
+}
+
+.icon-list li a:hover {
+    color: var(--blue);
+}
+
 /* Bootstrap Customize */
 
 .btn-primary {
@@ -99,17 +115,17 @@ a.btn-blue-deep:hover {
 
 .contact-area {}
 
-.contact-area form {
+.contact-form {
     background: var(--blue-deep);
     padding: 60px 30px;
 }
 
-.contact-area form .form-control {
+.contact-form .form-control {
     border: 0;
     border-radius: 0;
 }
 
-.contact-area form .form-control.form-message {
+.contact-form .form-control.form-message {
     min-height: 200px;
 }
 
@@ -152,6 +168,17 @@ a.btn-blue-deep:hover {
     color: var(--blue);
     margin-bottom: 10px;
     display: inline-block;
+}
+
+/* Contact page area */
+
+.contact-page-area .contact-info p .fa {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contact-page-area .contact-info p:hover {
+    color: var(--blue);
 }
 
 /* ========================================================= */
